@@ -19,23 +19,7 @@
     <div class="col-6">
         <div class="card">
             <div class="card-body">
-
-                <div class="input-group">
-                    <span class="input-group-btn">
-                      <button class="btn btn-primary" type="button" (click)="progresochan(-5)">
-                        <i class="mdi mdi-minus"></i>
-                      </button>
-                  </span>
-
-                    <input type="text" class="form-control" name="progreso" #progress [(ngModel)]="progreso">
-
-                    <span>
-                    <button class="btn btn-primary" type="text" (click)="progresochan(+5)">
-                        <i class="mdi mdi-plus"></i>
-                    </button>
-                  </span>
-                </div>
-
+                <app-incrementador></app-incrementador>
             </div>
         </div>
     </div>
@@ -43,7 +27,7 @@
     <div class="col-6">
         <div class="card">
             <div class="card-body">
-                s
+                <app-incrementador></app-incrementador>
             </div>
         </div>
     </div>

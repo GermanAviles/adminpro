@@ -3,6 +3,7 @@ import { FormsModule } from '@angular/forms';
 
 /** Modulos */
 import { SharedModule } from '../shared/shared.module';
+import { ComponentsModule } from '../components/components.module';
 
 /** Componentes */
 import { DashboardComponent } from './dashboard/dashboard.component';
@@ -31,6 +32,7 @@ import { PAGES_ROUTES } from './pages.routes';
   imports: [
     SharedModule,
     FormsModule,
+    ComponentsModule,
     PAGES_ROUTES
   ]
 })
