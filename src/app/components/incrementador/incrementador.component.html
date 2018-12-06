@@ -7,7 +7,7 @@
       </button>
   </span>
 
-    <input type="text" class="form-control" name="progreso" #progress [(ngModel)]="progreso">
+    <input #progressfield type="number" class="form-control" name="progreso" [(ngModel)]="progreso" (ngModelChange)="onChanges($event)" min="1" max="100">
 
     <span>
     <button class="btn btn-primary" type="text" (click)="progresochan(+5)">
