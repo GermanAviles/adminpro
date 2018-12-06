@@ -1,0 +1,10 @@
+<div class="card">
+    <div class="card-body">
+
+        <h4> {{ charConfig.leyenda }} </h4>
+        <div style="display: block">
+            <canvas baseChart [data]="charConfig.data" [labels]="charConfig.labels" [chartType]="charConfig.type" [options]="barChartOptions"></canvas>
+        </div>
+
+    </div>
+</div>
